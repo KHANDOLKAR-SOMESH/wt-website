@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="post.css">
+    <title>Post a Job</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo"> job portal</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="highring.html">companies</a></li>
+                <li><a href="postjob.html">post</a></li>
+                <li><a href="browse.html">browse</a></li>
+                <li><a href="apply.html">apply job</a></li>
+            </ul>
+        </div>
+    </nav>
+<div class="job-posting-form">
+    <h1>Get your Dream Employee</h1>
+    <h2>Post a Job - Start receiving proposals within minutes</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="job-title">What do you need to get done?</label>
+            <input type="text" id="job-title" name="job-title" placeholder="e.g. I need a professional website design" required>
+        </div>
+        <div class="form-group">
+            <label for="category">Pick Category</label>
+            <select id="category" name="category">
+                <option value="graphic-design">Graphic Design</option>
+                <option value="html">HTML</option>
+                <!-- Add more categories as needed -->
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="description">Description</label>
+            <textarea id="description" name="description" placeholder="Provide a more detailed description to help you get better proposals" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="upload">Upload Files</label>
+            <input type="file" id="upload" name="upload">
+        </div>
+        <button type="submit">Post Job</button>
+    </form>
+</div>
+
+</body>
+</html>

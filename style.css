@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;  
+}
+.im{
+   background: url("b.jpg");
+   background-size: cover;
+   height: 70vh;
+   background-position: center;
+ 
+   
+}
+.navbar {
+    background: #1d1d1d;
+    padding: 20px 0;
+    
+}
+
+.c {
+    text-align: center;
+    font-size: 2.5em;
+    color: #e05252;
+    margin-bottom: 5vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 4vh;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(156, 156, 228);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2.5vh;
+}
+
+.main-section {
+    padding: 30px 0;
+    background-color: #f1f0f0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.stats-box {
+    background-color: rgb(157, 229, 244);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 0.2px solid red;
+    border-style: dotted;
+    width: 30%;
+    margin: 10px;
+}
+
+.stats-box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.count {
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.data-item {
+    background-color: #8de8be;
+    height: 190px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 0.2px solid red;
+    border-style: dotted;
+    width: 30%;
+}
+
+.data-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.data-item p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.job-table {
+    background-color: #c6efd1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 48%;
+}
+
+.job-table h2 {
+    color: coral;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px 0;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer {
+    background-color: #1d1c1c;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.fc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+.footer-section h2 {
+    margin-bottom: 15px;
+}
+
+.about p {
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.contact span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.socials a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links li {
+    margin-bottom: 10px;
+}
+
+.links a {
+    color: #1b1b1b;
+    text-decoration: none;
+}
+
+.contact-form .text-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-form textarea {
+    width: calc(100% - 20px);
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: #ff5c5c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+    background-color: #e05252;
+}
+
+.footer-bottom {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
